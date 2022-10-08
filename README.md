@@ -49,7 +49,7 @@ USER_ID =
 |CHANNEL_LIST|The specific channel list you want to download image from|
 |USER_ID|Your discord user id for this bot to send the state messages|
  * You can set `DICT_PATH = './test_dic.csv'` for testing, this csv file contents are mostly about hololive and other vtubers' hashtag.
- * If you don't set `CHANNEL_LIST`, that it defaults to read all channel in the server.
+ * If you didn't set `CHANNEL_LIST`, that it defaults to read all channel in the server.
 ### Create a new application and add a bot in Discord Developer Portal
 * Privileged Gateway Intents: "SERVER MEMBERS INTENT", "MESSAGE CONTENT INTENT"
 ![](https://i.imgur.com/R8r1e6o.png)
