@@ -70,5 +70,6 @@ https://discord.com/api/oauth2/authorize?client_id=xxxxxxxxxxx&permissions=35840
 ![](https://i.imgur.com/gmfjB4W.png)
 * if download successfully, this bot will send a message to you and tell you which directory this image downloads to.
 * **it won't send any message to server, just sliently download images**
+
 ![](https://i.imgur.com/Uda9ohr.png)
 
