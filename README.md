@@ -4,6 +4,7 @@
 * It will automatically check message in specific channels then download and classify twitter and pixiv images.
 * It names the image by tweet ID or pixiv image ID, so it can prevent user from downloading the same image.
 * It will send the download info message directly to you, and won't generate any messages in discord servers.
+
 ![](https://i.imgur.com/uaD2Hdf.png)
 
 ## How to use
@@ -52,12 +53,14 @@ USER_ID =
  * If you didn't set `CHANNEL_LIST`, that it defaults to read all channel in the server.
 ### Create a new application and add a bot in Discord Developer Portal
 * Privileged Gateway Intents: "SERVER MEMBERS INTENT", "MESSAGE CONTENT INTENT"
+
 ![](https://i.imgur.com/R8r1e6o.png)
 
 
 ### Invite this dc bot into your server
 * Developer portal -> application -> OAuth2 -> URL generator -> scope:bot
 -> bot permissions: "Read Messages/View Channels", "Send Messages", "Attach Files"
+
  ![](https://i.imgur.com/uanZoRg.png)
 
 Invite link will like this type:
@@ -67,6 +70,7 @@ https://discord.com/api/oauth2/authorize?client_id=xxxxxxxxxxx&permissions=35840
 * Of course you can change it to .py or use terminal to execute it to debug.
 ### Done!
 * You can send a tweet link which has images to check if it works.
+
 ![](https://i.imgur.com/gmfjB4W.png)
 * if download successfully, this bot will send a message to you and tell you which directory this image downloads to.
 * **it won't send any message to server, just sliently download images**
